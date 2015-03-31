@@ -104,4 +104,4 @@ if global.jQuery
   setupJQ()
 else
   if global.console
-    console.warn('airbrake-js: jQuery not found; skipping jQuery instrumentation.')
+    global.console.warn('airbrake-js: jQuery not found; skipping jQuery instrumentation.')
